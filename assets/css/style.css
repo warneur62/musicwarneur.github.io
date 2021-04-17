@@ -1,0 +1,282 @@
+/* 
+    
+    
+    Style css 
+
+
+
+    Code couleur: 
+    
+    #FF8C00 = foncé 
+    #FF8C00 = orange 
+
+
+*/
+
+
+/* Balises globales */
+html
+{
+    scroll-behavior: smooth !important;
+}
+
+
+/* Reste style */
+
+#border-taff 
+{
+    border:solid red;
+}
+
+
+
+i.fa-bars
+{
+    color:white;
+    font-size: xx-large;
+}
+
+
+
+header
+{
+    background-image: url('../img/djdeux.jpg') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.bienvenue-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 580px !important;
+}
+
+.bienvenue-msg h1
+{
+    color:white;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+/* Présentation */
+
+.titre h1 
+{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.contenue p 
+{
+    color:rgba(0, 0, 0, 0.658);
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+/* Services */
+.services
+{
+    background-image: url('../img/dj.jpg');
+}
+.services .titre h1 
+{
+    color:white; 
+    font-size: 45px;
+}
+
+
+/* icones services */
+.services-contenue 
+{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    min-height:400px;
+    color:white;
+}
+
+.services-contenue  
+{
+    font-size: 55px !important;
+    padding: 15px;
+}
+
+.services-contenue figcaption h3
+{
+    font-size: xx-large;
+    font-weight: lighter;
+    
+}
+
+/* Réalisations */
+.realisation 
+{
+    display: flex;
+    /* width: 100% !important; */
+    
+}
+
+.text-realisation 
+{
+    padding: 10px;
+}
+
+.img-realisation 
+{
+    position: relative;
+    margin-left: -30px;
+}
+
+
+/* Contact */
+.contact 
+{
+    min-height: 700px !important;
+}
+
+
+
+/* Footer */
+.credits {
+    height: 200px !important;
+    display: flex !important;
+    align-items:center !important;
+    justify-content: center !important;
+}
+
+.credits h3 
+{
+    font-size: large;
+    font-weight: lighter;
+}
+
+/* Class principales */
+.btn-bienvenue
+{
+    background: #ffffff00;
+    border:white solid 1px;
+    min-width: 280px !important;
+    transition: .5s;
+    color:white !important;
+    font-size: x-large;
+}
+
+.btn-bienvenue:hover 
+{
+    transition: .5s;
+    min-width: 350px !important;
+}
+
+.btn-bienvenue:focus 
+{
+    outline: none;
+}
+
+.btn-contact
+{
+    background: #ffffff00;
+    border:grey solid 1px;
+    min-width: 280px !important;
+    transition: .5s;
+    color:black !important;
+    font-size: x-large;
+}
+
+.btn-contact:focus 
+{
+    outline: none;
+}
+
+
+
+
+.btn-contact-send
+{
+    background: #ffffff00;
+    border:white solid 1px;
+    min-width: 280px !important;
+    transition: .5s;
+    color:white !important;
+    font-size: x-large;
+    font-weight: lighter !important;
+}
+
+.btn-contact-send:hover 
+{
+    transition: .5s;
+    min-width: 350px !important;
+}
+
+
+.btn-contact-send:focus 
+{
+    outline: none;
+}
+
+
+
+.separateur 
+{
+    max-width: 250px;
+    border:solid rgb(206, 204, 204) .5px;
+}
+
+.separateur-center 
+{
+    margin:auto;
+}
+
+.bg-grey 
+{
+    background:#141414 !important;
+}
+.bg-black 
+{
+    background:black !important;
+}
+
+
+.form-control 
+{
+    border-bottom: white solid 2px !important;
+    border-top:none !important;
+    border-right: none !important;
+    border-left: none !important;
+    background:rgba(0, 0, 0, 0);
+    border-radius: 0px !important;
+}
+
+.form-control:focus 
+{
+    background:rgba(0, 0, 0, 0); 
+    outline:none !important;
+    box-shadow: none !important;
+}
+
+.form-group 
+{
+    padding: 10px !important;
+}
+
+.contact-contenue
+{
+    margin:auto !important;
+    text-align: center !important;
+}
+
+.form-contact 
+{
+    margin: auto !important;
+}
